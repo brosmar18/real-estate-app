@@ -1,0 +1,30 @@
+@import "../../responsive.scss";
+
+.hero {
+  margin-top: 51px;
+  height: 648px;
+  border-radius: 24px;
+  background: linear-gradient(
+    90deg,
+    #123763 -52.43%,
+    rgba(18, 55, 99, 0) 75.5%
+  );
+  padding-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  color: #fff;
+
+  .title {
+    font-size: 4rem;
+    line-height: 5.3rem;
+    width: 50%;
+  }
+
+  .desc {
+    font-size: 18px;
+    line-height: normal;
+    font-weight: 400;
+  }
+}
