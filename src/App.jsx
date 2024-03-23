@@ -1,7 +1,7 @@
-import React from "react";
+import "./layout.scss";
 
 const App = () => {
-  return <div>App</div>;
+  return <div className="layout">App</div>;
 };
 
 export default App;
